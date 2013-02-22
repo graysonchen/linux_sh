@@ -1,6 +1,6 @@
 echo "Install RVM"
 echo ""
-bash < <(curl -s https://get.rvm.io/)
+bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >>~/.bash_profile
 source ~/.bash_profile
 echo ""
