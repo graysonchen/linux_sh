@@ -3,9 +3,6 @@ echo ""
 bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >>~/.bash_profile
 source ~/.bash_profile
-echo ""
-echo -n "Replace Ruby Download url to Taobao Mirror..."
-sed -i -e 's/ftp\.ruby-lang\.org\/pub\/ruby/ruby\.taobao\.org\/mirrors\/ruby/g' ~/.rvm/config/db  
 echo "[Done]"
 echo ""
 echo ""
