@@ -33,7 +33,7 @@ sudo apt-get install mysql-server
 
 install redis
 ```Terminal
-\curl -L https://raw.github.com/cgg5207/linux_sh/master/install_redis.sh|bash
+sudo apt-get install redis-server  
 ```
 
 
