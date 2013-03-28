@@ -36,6 +36,10 @@ install redis
 sudo apt-get install redis-server  
 ```
 
+install memcached
+```bash Terminal
+sudo apt-get install memcached
+```
 
 install rvm
 ```Terminal
