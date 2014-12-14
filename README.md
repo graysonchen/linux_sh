@@ -37,7 +37,7 @@ sudo apt-get install redis-server
 ```
 
 install memcached
-```bash Terminal
+```Terminal
 sudo apt-get install memcached
 ```
 
@@ -46,5 +46,8 @@ install rvm
 \curl -L https://raw.github.com/cgg5207/linux_sh/master/install_rvm.sh|bash
 ```
 
-
+一键vpn
+```Terminal
+\curl -L https://raw.github.com/cgg5207/linux_sh/master/ubuntu/pptp-debian.sh|bash
+```
 
