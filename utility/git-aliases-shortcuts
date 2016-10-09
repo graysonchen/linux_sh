@@ -6,3 +6,5 @@ git config --global alias.br branch
 git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 git config --global alias.throw 'reset --hard HEAD'
 git config --global alias.throwh 'reset --hard HEAD^'
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.undo-commit 'reset HEAD~'
