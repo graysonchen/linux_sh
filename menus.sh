@@ -26,7 +26,6 @@ function option_picked() {
 clear
 show_menu
 while [ opt != '' ];
-    do
     if [[ $opt = "" ]]; then
             exit;
     else
