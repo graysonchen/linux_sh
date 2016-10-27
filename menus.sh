@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 show_menu(){
     NORMAL=`echo "\033[m"`
     MENU=`echo "\033[36m"` #Blue
@@ -26,6 +26,7 @@ function option_picked() {
 clear
 show_menu
 while [ opt != '' ];
+    do
     if [[ $opt = "" ]]; then
             exit;
     else
