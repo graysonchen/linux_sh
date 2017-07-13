@@ -15,3 +15,5 @@ git config --global alias.sbc 'submodule foreach git co master'
 git config --global alias.l 'log --oneline --decorate -12 --color'
 git config --global alias.ll 'log --oneline --decorate --color'
 git config --global alias.lc 'log --graph --color'
+
+# curl -sSL http://dlj.bz/MQIGwj |bash
