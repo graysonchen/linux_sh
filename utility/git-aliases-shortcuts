@@ -23,3 +23,4 @@ git config --global core.quotepath false
 git config --global push.default current
 
 # curl -sSL http://dlj.bz/MQIGwj |bash
+# curl -sSL http://dlj.bz/set-git-config |bash
