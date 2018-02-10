@@ -3,7 +3,7 @@
 # Slack Bash console script for sending messages.
 ####################################################################################
 # Installation
-#    $ sudo curl -Ls http://dlj.bz/MCZmsa --output /usr/bin/slack
+#    $ sudo curl -Ls http://dlj.bz/lHqF96 --output /usr/bin/slack
 #    $ sudo chmod +x /usr/bin/slack
 ####################################################################################
 # USAGE
