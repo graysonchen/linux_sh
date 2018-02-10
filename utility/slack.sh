@@ -87,15 +87,10 @@ slack() {
 
   cd ${__dir}
 
-  # if [ -f $(cd; pwd)/.slackrc ]; then
-  #   . $(cd; pwd)/.slackrc
-  # fi
-  
-  if [ -f $HOME/.slackrc ]; then
-    . $HOME/.slackrc
+  if [ -f $(cd; pwd)/.slackrc ]; then
+    . $(cd; pwd)/.slackrc
   fi
-
-
+  
   declare -a slack_channels
 
   init_params ${@}
